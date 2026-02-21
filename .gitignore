@@ -1,1 +1,4 @@
 .venv
+
+#local data files for testing
+local/

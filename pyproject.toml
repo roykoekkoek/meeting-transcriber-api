@@ -1,0 +1,10 @@
+[project]
+name = "meeting_transcriber"
+version = "0.1.0"
+description = "This is meeting transcriber that takes in .mp4 files, strips the audio, runs through gpt-4o-transcribe and returns transcript. The app is wrapped in API"
+requires-python = ">=3.10"
+dependencies = [
+    "langchain>=0.2.0",
+    "fastapi",
+    "qdrant-client",
+]

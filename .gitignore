@@ -1,4 +1,13 @@
 .venv
+.env
 
 #local data files for testing
 local/
+
+#build
+build/
+dist/
+*.egg-info/
+*.egg
+__pycache__/
+*.pyc
